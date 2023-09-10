@@ -7,12 +7,14 @@
         </v-row>
         <nav>
   <ul>
-    <li><a href="/">Landing</a></li>
-    <li><a href="/home">Home</a></li>
+    <li><a href="/">Home</a></li>
+    <li><a href="/login">Login</a></li>
+    <li><a href="/register">Register</a></li>
     <li><a href="/shoe-detail">Shoe Detail</a></li>
     <li><a href="/profile">Profile</a></li>
     <li><a href="/cart">Cart</a></li>
     <li><a href="/checkout">Checkout</a></li>
+    <li><a href="/order-detail">Order Detail</a></li>
   </ul>
 </nav>
     </v-container>
