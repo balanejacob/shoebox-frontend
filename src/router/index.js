@@ -31,7 +31,7 @@ const routes = [
         component: () => import(/* webpackChunkName: "register" */ '@/views/Register.vue'),
       },
       {
-        path: '/shoe/:id',
+        path: '/shoe/:id', 
         name: 'ShoeDetail',
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
@@ -63,7 +63,7 @@ const routes = [
         component: () => import(/* webpackChunkName: "checkout" */ '@/views/Checkout.vue'),
       },
       {
-        path: '/order/:id',
+        path: '/order/:id', 
         name: 'OrderDetail',
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
