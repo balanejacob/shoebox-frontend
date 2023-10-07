@@ -33,10 +33,21 @@
           </v-row>
         </v-col>
       </v-row>
+      <v-container class="d-flex pa-0 mt-15">
+        <p class="text-h3 font-weight-bold me-auto">Featured Shoes</p>
+        <DropdownFilter label="Type" :values="types" />
+        <DropdownFilter label="Size" :values="sizes" />
+        <DropdownFilter label="Color" :values="colors" />
+      </v-container>
     </v-container>
   </v-container>
 </template>
 
 <script setup>
 import AppBar from "../AppBar.vue";
+import DropdownFilter from "../DropdownFilter.vue";
+
+const types = ["sneakers", "boots", "slippers"];
+const sizes = ["small", "medium", "large"];
+const colors = ["red", "blue", "green"];
 </script>
