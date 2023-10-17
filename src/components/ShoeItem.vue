@@ -17,12 +17,4 @@
 
 <script setup>
 import ColorVariant from "./particules/ColorVariant.vue";
-
-// eslint-disable-next-line no-unused-vars
-const props = {
-  colorHex: {
-    type: String,
-    required: true,
-  },
-};
 </script>
