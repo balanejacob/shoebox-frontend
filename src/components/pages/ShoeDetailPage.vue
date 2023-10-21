@@ -1,26 +1,18 @@
 <template>
-    <v-container>
-        <v-row>
-            <v-col cols="12">
-                <h1>Shoe Detail Page</h1>
-            </v-col>
-        </v-row>
-        <nav>
-            <ul>
-                <li><router-link to="/">Home</router-link></li>
-                <li><router-link to="/login">Login</router-link></li>
-                <li><router-link to="/register">Register</router-link></li>
-                <li><router-link to="/shoe/:id">Shoe Detail</router-link></li>
-                <li><router-link to="/profile">Profile</router-link></li>
-                <li><router-link to="/cart">Cart</router-link></li>
-                <li><router-link to="/checkout">Checkout</router-link></li>
-                <li><router-link to="/order/:id">Order Detail</router-link></li>
-            </ul>
-        </nav>
-    </v-container>
-    
+  <v-container class="w-75 fill-height overflow-auto align-start">
+    <div class="d-flex w-100 align-center mt-16">
+      <div class="d-flex align-center me-auto">
+        <v-icon size="x-large" icon="mdi-keyboard-backspace mr-2" />
+        <p class="text-h6 font-weight-bold">Back to Home</p>
+      </div>
+      <div class="d-flex align-center">
+        <p class="text-body-1 font-weight-medium mr-2">View Cart</p>
+        <v-icon size="small" icon="mdi-cart mr-2" />
+      </div>
+    </div>
+  </v-container>
 </template>
 
 <script setup>
-    //
+//
 </script>
