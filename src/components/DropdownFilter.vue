@@ -1,5 +1,5 @@
 <template>
-  <div class="select mx-2">
+  <div class="mx-2" :style="{ width: '150px' }">
     <v-select
       clearable
       :label="label"

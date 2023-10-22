@@ -1,7 +1,7 @@
 <template>
   <div
-    class="select-cell rounded-lg mr-2"
-    :style="{ backgroundColor: colorHex }"
+    class="rounded-lg mr-2"
+    :style="{ backgroundColor: colorHex, height: '40px', width: '80px' }"
   ></div>
 </template>
 
@@ -9,5 +9,7 @@
 // eslint-disable-next-line no-unused-vars
 const props = defineProps({
   colorHex: String,
+  disabled: Boolean,
+  selected: Boolean,
 });
 </script>

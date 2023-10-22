@@ -55,7 +55,10 @@
     </v-container>
   </v-container>
 
-  <div class="footer bg-grey-lighten-4 w-100"></div>
+  <div
+    class="footer bg-grey-lighten-4 w-100"
+    :style="{ height: '200px' }"
+  ></div>
 </template>
 
 <script setup>

@@ -8,36 +8,3 @@
 // @use 'vuetify/settings' with (
 //   $color-pack: false
 // );
-
-.capitalized {
-  text-transform: capitalize;
-}
-
-.select {
-  width: 150px;
-}
-
-.color-variant-preview {
-  height: 10px;
-  width: 10px;
-  border-radius: 50%;
-}
-
-.select-cell {
-  height: 40px;
-  width: 80px;
-}
-
-.footer {
-  height: 200px;
-}
-
-.shoe-detail-image {
-  position: relative;
-}
-
-.logo-overlay {
-  position: absolute;
-  top: 0;
-  left: 30px;
-}

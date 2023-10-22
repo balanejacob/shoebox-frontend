@@ -1,7 +1,12 @@
 <template>
   <div
-    class="color-variant-preview mr-2 my-1"
-    :style="{ backgroundColor: colorHex }"
+    class="mr-2 my-1"
+    :style="{
+      backgroundColor: colorHex,
+      height: '10px',
+      width: '10px',
+      borderRadius: '50%',
+    }"
   ></div>
 </template>
 
