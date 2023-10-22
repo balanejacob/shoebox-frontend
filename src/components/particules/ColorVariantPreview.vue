@@ -1,6 +1,6 @@
 <template>
   <div
-    class="select-cell rounded-lg mr-2"
+    class="color-variant-preview mr-2 my-1"
     :style="{ backgroundColor: colorHex }"
   ></div>
 </template>

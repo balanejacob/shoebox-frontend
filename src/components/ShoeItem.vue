@@ -7,14 +7,14 @@
     <p class="text-subtitle-2 text-grey-darken-1">Men's Basketball Shoes</p>
     <p class="text-subtitle-2 text-grey-darken-1">US M 7, US M 9</p>
     <div class="d-flex flex-wrap">
-      <ColorVariant :color-hex="'#000000'" />
-      <ColorVariant :color-hex="'#00FFF0'" />
-      <ColorVariant :color-hex="'#FF0000'" />
+      <ColorVariantPreview :color-hex="'#000000'" />
+      <ColorVariantPreview :color-hex="'#00FFF0'" />
+      <ColorVariantPreview :color-hex="'#FF0000'" />
     </div>
     <p class="text-subtitle-2 text-grey-darken-1">₱ 5,000.00</p>
   </div>
 </template>
 
 <script setup>
-import ColorVariant from "./particules/ColorVariant.vue";
+import ColorVariantPreview from "./particules/ColorVariantPreview.vue";
 </script>
