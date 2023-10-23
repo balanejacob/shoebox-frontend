@@ -7,9 +7,9 @@
           <v-btn variant="text">Login</v-btn>
         </v-col>
         <v-col cols="auto" class="px-2">
-          <v-btn variant="flat" color="#FFBD59" class="text-white"
-            >Register</v-btn
-          >
+          <v-btn variant="flat" color="#FFBD59" class="text-white">
+            Register
+          </v-btn>
         </v-col>
       </v-row>
     </v-container>

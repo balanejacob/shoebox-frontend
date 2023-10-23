@@ -12,16 +12,26 @@
     </div>
     <v-row class="h-75">
       <v-col cols="6" class="pa-4">
-        <ShoeImagePreview />
+        <ShoeImagePreview
+          image="/src/assets/shoe.png"
+          logo="/src/assets/nike-logo.png"
+        />
       </v-col>
       <v-col cols="6">
-        <ShoeDetails />
-        <ShoeOrderForm />
+        <ShoeDetails
+          name="Nike Shoe Name 15"
+          price="5000"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat."
+          type="Men's Basketball Shoes"
+        />
+        <ShoeOrderForm :variants="colors" />
         <v-btn
           variant="tonal"
-          class="mt-8 w-100 text-subtitle-1 text-capitalize font-weight-bold rounded-0"
+          class="button-color mt-8 w-100 text-subtitle-1 text-capitalize font-weight-bold rounded-0"
           height="60"
-          :style="{ backgroundColor: '#ffbd59' }"
         >
           Add to Cart
         </v-btn>
@@ -30,8 +40,16 @@
   </v-container>
 </template>
 
+<style scoped>
+.button-color {
+  background-color: #ffbd59;
+}
+</style>
+
 <script setup>
 import ShoeDetails from "../ShoeDetails.vue";
 import ShoeOrderForm from "../ShoeOrderForm.vue";
 import ShoeImagePreview from "../ShoeImagePreview.vue";
+
+const colors = ["#000000", "#00FFF0", "#FF0000"];
 </script>

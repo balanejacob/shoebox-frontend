@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-2" :style="{ width: '150px' }">
+  <div class="mx-2 filter">
     <v-select
       clearable
       :label="label"
@@ -8,6 +8,12 @@
     ></v-select>
   </div>
 </template>
+
+<style scoped>
+.filter {
+  width: 150px;
+}
+</style>
 
 <script setup>
 defineProps({

@@ -2,9 +2,11 @@
   <div class="mt-8">
     <p class="text-body-2 font-weight-medium">Color Variations :</p>
     <div class="d-flex mt-2">
-      <ColorVariant color-hex="#000000" />
-      <ColorVariant color-hex="#00FFF0" />
-      <ColorVariant color-hex="#FF0000" />
+      <ColorVariant
+        :color-hex="variant"
+        v-for="variant in variants"
+        :key="variant"
+      />
     </div>
   </div>
   <div class="mt-4">
@@ -40,5 +42,11 @@
 <script setup>
 import ColorVariant from "./particles/ColorVariant.vue";
 import SizeInstance from "./particles/SizeInstance.vue";
+
+defineProps({
+  variants: {
+    type: Array,
+  },
+});
 </script>
 ```
