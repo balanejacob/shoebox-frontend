@@ -1,6 +1,5 @@
 <template>
   <AppBar />
-
   <v-container class="w-75 fill-height overflow-auto align-start">
     <v-container class="pa-0">
       <v-row class="my-6 align-center pa-0 ma-0">
@@ -57,6 +56,12 @@
 
   <div class="footer bg-grey-lighten-4 w-100"></div>
 </template>
+
+<style scoped>
+.footer {
+  height: 200px;
+}
+</style>
 
 <script setup>
 import AppBar from "../AppBar.vue";
