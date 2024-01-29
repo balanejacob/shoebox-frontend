@@ -14,10 +14,7 @@
     </div>
     <v-row class="h-75">
       <v-col cols="6" class="pa-4">
-        <ShoeImagePreview
-          image="/src/assets/shoe.png"
-          logo="/src/assets/nike-logo.png"
-        />
+        <ShoeImagePreview :image="ShoeImage" :logo="Logo" />
       </v-col>
       <v-col cols="6">
         <ShoeDetails
@@ -52,6 +49,8 @@
 import ShoeDetails from "../ShoeDetails.vue";
 import ShoeOrderForm from "../ShoeOrderForm.vue";
 import ShoeImagePreview from "../ShoeImagePreview.vue";
+import ShoeImage from "../../assets/shoe.png";
+import Logo from "../../assets/logo.svg";
 
 const colors = ["#000000", "#00FFF0", "#FF0000"];
 </script>
