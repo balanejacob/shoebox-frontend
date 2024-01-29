@@ -1,5 +1,5 @@
 <template>
-  <div class="shoe-item w-25 d-flex flex-column pa-2 mt-5">
+  <div class="shoe-item w-25 d-flex flex-column pa-2 mt-5" @click="showDetails">
     <div class="h-100 w-100 bg-grey-lighten-4 shoe-item">
       <v-img src="/src/assets/shoe.png" />
     </div>
@@ -23,4 +23,10 @@
 
 <script setup>
 import ColorVariantPreview from "./particles/ColorVariantPreview.vue";
+
+// methods: {
+//     showDetails() {
+//       this.$router.push(`/shoe/${id}`);
+//     }
+//   }
 </script>

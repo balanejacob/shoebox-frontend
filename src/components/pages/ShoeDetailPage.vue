@@ -3,7 +3,9 @@
     <div class="d-flex w-100 align-center mt-16">
       <div class="d-flex align-center me-auto">
         <v-icon size="x-large" icon="mdi-keyboard-backspace mr-2" />
-        <p class="text-h5 font-weight-bold">Back to Home</p>
+        <router-link to="/" class="text-h5 font-weight-bold">
+          Back to Home
+        </router-link>
       </div>
       <div class="d-flex align-center">
         <p class="text-h6 font-weight-medium mr-2">View Cart</p>

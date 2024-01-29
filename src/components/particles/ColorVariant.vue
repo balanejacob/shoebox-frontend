@@ -1,5 +1,5 @@
 <template>
-  <div class="rounded-lg mr-2 color-cell"></div>
+  <div class="rounded-lg mr-2 color-cell border"></div>
 </template>
 
 <style scoped>
